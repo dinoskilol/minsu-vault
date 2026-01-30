@@ -1,20 +1,17 @@
 ---
 title: "{{TITLE}}"
 description: "Kurzbeschreibung"
-author: "Minsu (Automated study vault)"
-publish_ready: false
+author: "Minsu"
 ---
 
 # {{TITLE}}
 
-## Übersicht
+## Einleitung
 
-## Wichtige Begriffe
+## Definitionen
+
+## Ausführliche Erklärungen
 
 ## Prüfungsrelevante Aufgaben
 
-## Verwandte Themen
-
-## Tags
-
-## Nächste Schritte
+## Weiterführende Literatur

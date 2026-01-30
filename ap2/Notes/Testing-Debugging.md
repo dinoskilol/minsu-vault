@@ -1,20 +1,13 @@
 ---
 title: "Testing & Debugging"
-description: "Testverfahren, Testarten und Debugging-Strategien für AP2"
+description: "Testarten, Teststrategien und Debugging-Methoden"
 author: "Minsu (Automated study vault)"
-publish_ready: true
 ---
 
 # Testing & Debugging
 
-## Übersicht
-- **Testarten:** Unittest, Integrationstest, Systemtest, Abnahmetest
-- **Teststrategien:** Black-Box, White-Box, TDD-Grundlagen
-- **Debugging:** Log-Analyse, Reproduktionsstrategien, Einsatz von Debuggern
+Testing und Debugging sind essenzielle Qualitätsmaßnahmen. Tests lassen sich in Unittests, Integrationstests, Systemtests und Abnahmetests unterteilen. Jede Testart erfüllt unterschiedliche Ziele: Unittests prüfen kleine Codeeinheiten, Integrationstests das Zusammenspiel, Systemtests das Gesamtsystem.
 
-## Prüfungsrelevante Aufgaben
-- Entwickeln Sie Unit-Tests für eine Login-Funktion mit Beispiel-Assertions.
-- Beschreiben Sie Schritte zur Fehlerreproduktion und -behebung bei einem Performance-Problem.
+Debugging umfasst Techniken zur Fehlerlokalisierung, wie reproduzierbare Fehlerszenarien, Log-Analyse und Einsatz von Debuggern. Prüfungsaufgaben fordern häufig, Testfälle zu formulieren oder geeignete Teststrategien zu rechtfertigen.
 
-## Tags
-`#AP2` `#Testing` `#Debugging` `#Format.Article` `#Status.Draft` `#Priority.Core`
+Quellen: Testing-Grundlagen, IHK-Hinweise.

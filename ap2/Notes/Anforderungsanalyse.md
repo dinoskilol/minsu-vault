@@ -1,32 +1,13 @@
 ---
 title: "Anforderungsanalyse"
-description: "Systematische Ermittlung, Dokumentation und Validierung von Anforderungen (AP2)"
+description: "Erklärung und Kontext zur Anforderungsanalyse für AP2"
 author: "Minsu (Automated study vault)"
-publish_ready: true
 ---
 
 # Anforderungsanalyse
 
-## Übersicht
-- **Definition:** Systematische Ermittlung, Dokumentation und Validierung der Anforderungen an ein Softwaresystem.
-- **Ziele:** Klare, überprüfbare und umsetzbare Anforderungen; gemeinsame Grundlage für Entwurf und Tests.
+Die Anforderungsanalyse ist ein zentraler Schritt zu Beginn der Softwareentwicklung. Sie umfasst das systematische Sammeln, Dokumentieren und Validieren von Anforderungen, die die Bedürfnisse der Stakeholder widerspiegeln. Für die Abschlussprüfung ist es wichtig, nicht nur die Definition zu kennen, sondern auch typische Artefakte (z. B. Lasten- und Pflichtenheft), Methoden zur Anforderungserhebung (Interviews, Workshops) und Kriterien zur Priorisierung und Abnahme.
 
-## Typische Aktivitäten
-- **Stakeholder-Identifikation** (Wer benötigt das System?)
-- **Anforderungen sammeln** (Interviews, Workshops, Fragebögen)
-- **Priorisierung** (Must / Should / Could / Won't)
-- **Spezifikation** (funktionale & nicht-funktionale Anforderungen)
-- **Abnahmekriterien definieren**
-- **Rückverfolgbarkeit (Traceability)** zu Entwurf und Tests
+Beispiel: In einem Login-Projekt werden funktionale Anforderungen (z. B. "Der Benutzer kann sich mit E-Mail und Passwort anmelden") und nicht-funktionale Anforderungen (z. B. "Antwortzeit < 200 ms") unterschieden und in Akzeptanzkriterien überführt.
 
-## Prüfungsrelevante Aufgaben
-- Schreibe 3 User Stories für einen Login- und Registrierungs-Workflow.
-- Definiere fünf Abnahmekriterien für die Login-Story.
-- Erstelle ein kurzes Mockup und verlinke die Bilddatei aus `../Diagrams/`.
-
-## Verwandte Themen
-- [[Softwareentwicklungslebenszyklus]]
-- [[Testing-Debugging]]
-
-## Tags
-`#AP2` `#Anforderungsanalyse` `#Format.Article` `#Status.Draft` `#Priority.Core`
+Quellen: IHK Rahmenplan, typische Softwareengineering-Lehrbücher.

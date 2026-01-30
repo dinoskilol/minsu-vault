@@ -1,23 +1,13 @@
 ---
 title: "Datenbanken & SQL"
-description: "Grundlagen relationaler Datenbanken, SQL-Abfragen und Transaktionen (AP2)"
+description: "Grundlagen relationaler Datenbanken und SQL für AP2"
 author: "Minsu (Automated study vault)"
-publish_ready: true
 ---
 
 # Datenbanken & SQL
 
-## Zusammenfassung
-- **Relationale Datenbanken:** Tabellen, Primary-/Foreign Keys, Normalisierung (1NF–3NF)
-- **SQL:** SELECT, INSERT, UPDATE, DELETE, JOINs, GROUP BY, HAVING
-- **Transaktionen:** ACID (Atomicity, Consistency, Isolation, Durability)
+Relationale Datenbanken sind ein zentrales Thema in der Anwendungsentwicklung. Sie organisieren Daten in Tabellen mit definierten Beziehungen (Primary/Foreign Keys). Wichtige Konzepte sind Normalisierung (z. B. 1NF–3NF) zur Vermeidung von Redundanz und das Verständnis von Transaktionen und deren Eigenschaften (ACID). SQL ist die Sprache zur Abfrage und Manipulation relationaler Daten.
 
-## Prüfungsaufgaben
-- Formulieren Sie eine Abfrage, die Benutzer der letzten 30 Tage anzeigt.
-- Erklären Sie INNER JOIN vs. LEFT JOIN mit Schema-Beispielen.
+Für die Prüfung sollten Sie grundlegende SQL-Statements sicher beherrschen (SELECT, JOIN, INSERT, UPDATE, DELETE) und typische Aufgaben wie das Zusammenführen von Tabellen mittels JOINs und das Formulieren von Abfragen mit GROUP BY lösen können.
 
-## Verwandte Themen
-- [[Softwareentwicklungslebenszyklus]]
-
-## Tags
-`#AP2` `#Datenbanken` `#SQL` `#Format.Article` `#Status.Draft` `#Priority.Core`
+Quellen: SQL-Tutorials, IHK-Material.
