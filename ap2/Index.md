@@ -1,6 +1,6 @@
 # AP2 Map of Content (MOC)
 
-This is the central index for the AP2 vault. Notes are explanatory articles (no bullet-only stubs). Each note is researched and contains explanatory paragraphs, definitions, examples, and links.
+This MOC lists theme notes. The ap2-daily-work cron will populate one theme note per run with researched, explanatory content and internal [[wiki-style]] links.
 
 - [[Anforderungsanalyse]]
 - [[Softwareentwicklungslebenszyklus]]
