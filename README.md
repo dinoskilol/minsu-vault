@@ -1,37 +1,40 @@
-# Minsu Vault — personal Obsidian workspace
+# Minsu Vault — public Obsidian workspace
 
-Hello — i'm Minsu, an automated study assistant and vault maintainer. i help collect, organize, and maintain markdown notes, templates, and research artifacts in this private Obsidian vault.
+Hello — ich bin Minsu, dein Clawdbot-Assistent. 🦞
+Ich pflege dieses Obsidian-Repository im Auftrag von Dino: organisiere Notizen, speichere Quellen, generiere Diagramme und helfe beim Erstellen von Lern- und Veröffentlichungs‑Material. Ab jetzt ist dieses Vault öffentlich — treat everything accordingly.
 
-## What this repository currently contains
+## Kurz: wer bin ich?
+- Name: Minsu (Clawdbot agent)
+- Rolle: automatischer Repository‑Manager, Research‑Assistent und Content‑Drafting‑Agent
+- Stimme: freundlich, informell, hilfsbereit (ich benutze gelegentlich emojis)
 
-- `Notes/` — The primary collection of markdown notes and drafts. Each file is a standalone note used for personal study, writing, or drafting. Files may vary in topic and completeness.
-- `Research/` — Reference lists and source-tracking files. Stores links and pointers to external resources; not all sources are downloaded.
-- `Diagrams/` — Image assets and generated diagrams referenced by notes.
-- `Revision/` — Exports and working files for revision materials (e.g., CSVs intended for Anki import).
-- `Templates/` — Note and export templates used to create new content with a consistent structure.
-- `memory/` — Agent memory and configuration files used by Minsu. Contains notes about automation, profiles, and task configuration. This folder may include personal metadata; handle with care.
+## Aktuelle Ordnerstruktur
+- `Notes/` — thematische Markdown‑Artikel. Jede Datei ist ein eigenständiger Artikel (ein Thema pro Datei). Schreibstil: erklärend, präzise, bereit für Überarbeitung vor Veröffentlichung.
+- `Research/` — gesammelte Quellenlisten, Verweise und (optionale) lokale Kopien von Referenzen.
+- `Diagrams/` — diagramme und bilddateien, die in Notizen eingebettet werden können.
+- `Revision/` — exportierbare Wiederholungsmaterialien (z. B. Anki‑CSV), falls vorhanden.
+- `Templates/` — Vorlagen für neue Artikel und Exporte.
+- `memory/` — agenteninterne Dateien (Konfigurationen, Profile). *Enthält potenziell sensible Metadaten; handle mit Bedacht.*
 
-## Purpose of the vault
+> Hinweis: jetzt, da das Vault öffentlich ist, speichere ich keine Geheimnisse oder API‑Schlüssel hier. Secrets gehören in `~/.config/`.
 
-This vault is a single-source workspace for drafting, iterating, and storing markdown content. It is intended to be a living workspace — notes are edited, improved, and versioned over time. The vault is private and used for development, study, and content preparation.
+## Was ich automatisch tue (mit deiner Erlaubnis)
+- committe und pushe strukturierte Änderungen an Notes/ nach semantischen Regeln (z. B. `docs: add <topic>`).
+- kann auf Anfrage Artikel ausarbeiten, Quellen sammeln und Diagramme erzeugen.
+- sende Benachrichtigungen über wichtige Änderungen, falls konfiguriert.
 
-## How i (Minsu) work with the vault
+Wenn du automatisches Posten oder Veröffentlichung willst, sag explizit Bescheid — ich frage vorher nach Zustimmung für externe Veröffentlichungen.
 
-- i run scheduled maintenance tasks (configurable) that can create, improve, and commit notes. I only modify files in this repository with your permission or as configured by cron jobs you've approved.
-- I keep a small set of templates and a research folder to track sources and artifacts.
-- I commit and push changes to the private remote when appropriate and notify you of major updates.
+## Richtlinien für Beiträge und Veröffentlichungen
+- Schreibe artikelfertige, belegte Inhalte; verwende Quellen in `Research/`.
+- Vermeide vertrauliche Daten in diesem Repo.
+- Nutze `Templates/` für einheitliche Frontmatter (title, description, author, publish_ready).
 
-## Safety & privacy
-
-- This repository must not contain secrets, API keys, or credentials. Keep secrets in `~/.config/`.
-- The vault is private by default. Publishing or sharing content should be done intentionally, with proper attribution to original sources.
-
-## Practical notes
-
-- To open this vault in Obsidian, use the `Notes/` folder as the root of your vault.
-- Use the `Templates/` folder to create new notes with the expected structure.
-- If you want me to stop automatic commits or change schedules, tell me and i'll update the automation settings.
+## How to use
+- Öffne `Notes/` als Obsidian‑Vault‑Root für beste Navigation (backlinks, graph view).
+- Nutze die MOC/Index‑Datei (falls vorhanden) als Einstiegspunkt.
+- Wenn du Änderungen möchtest, sag mir: ich kann editieren, formatieren, referenzieren und veröffentlichen.
 
 ---
 
-If you want a German version of this README or a short badge that shows publishing status, say so and i'll add it. 🦞
+If you want a German↔English bilingual README, or machine‑readable badges (CI/publish), tell me and i'll add them. want me to commit this update and push it public? 🙂
