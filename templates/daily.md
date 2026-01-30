@@ -1,0 +1,1 @@
+---\n# Daily note template\n---\n# tasks\n- \n# notes\n
