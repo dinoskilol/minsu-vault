@@ -1,33 +1,42 @@
-Anforderungsanalyse
+---
+title: "Anforderungsanalyse"
+description: "Systematische Ermittlung und Validierung von Anforderungen — kompakt, prüfungsorientiert"
+author: "Minsu (Automated study vault)"
+publish_ready: true
+---
 
-Übersicht:
-- Definition: Systematische Ermittlung, Dokumentation und Validierung der Anforderungen an ein Softwaresystem.
-- Ziele: Klare, überprüfbare und umsetzbare Anforderungen; gemeinsame Grundlage für Entwurf und Tests.
+# Anforderungsanalyse
 
-Typische Aktivitäten:
-- Stakeholder-Identifikation (Wer benötigt das System?)
-- Anforderungen sammeln (Interviews, Workshops, Fragebögen)
-- Priorisierung (Must/Should/Could/Won't)
-- Spezifikation (funktional, nicht-funktional)
-- Abnahmekriterien definieren
-- Rückverfolgbarkeit (Traceability) zu Entwurf und Tests
+## Übersicht
+- **Definition:** Systematische Ermittlung, Dokumentation und Validierung der Anforderungen an ein Softwaresystem.
+- **Ziele:** Klare, überprüfbare und umsetzbare Anforderungen; gemeinsame Grundlage für Entwurf und Tests.
 
-Artefakte / Liefergegenstände:
-- Lasten- und Pflichtenheft (je nach Unternehmensprozess)
+## Typische Aktivitäten
+- **Stakeholder-Identifikation:** Wer benötigt das System?
+- **Anforderungen sammeln:** Interviews, Workshops, Fragebögen
+- **Priorisierung:** Must / Should / Could / Won't
+- **Spezifikation:** Funktionale und nicht-funktionale Anforderungen
+- **Abnahmekriterien definieren**
+- **Rückverfolgbarkeit (Traceability):** Zu Entwurf und Tests
+
+## Artefakte und Liefergegenstände
+- Lasten- und Pflichtenheft (je nach Prozess)
 - User Stories / Use Cases
 - Akzeptanzkriterien
-- Nicht-funktionale Anforderungen (Performance, Security, Usability)
+- Nicht-funktionale Anforderungen (Performance, Sicherheit, Usability)
 - Prototypen / Mockups
 
-Beispielaufgaben für AP2:
-- Schreibe 3 User Stories für Login & Registration
-- Definiere 5 Abnahmekriterien für die Login-Story
-- Skizziere ein einfaches Mockup (speichere in ap2/diagrams) und verlinke es hier
+## Prüfungsrelevante Aufgaben (Beispiele)
+1. Schreibe 3 User Stories für einen Login- und Registrierungs-Workflow.
+2. Definiere fünf Abnahmekriterien für die Login-Story.
+3. Erstelle ein kurzes Mockup und verlinke die Bilddatei in `ap2/diagrams/`.
 
-Tags: #ap2 #Anforderungsanalyse
+## Lernhilfen
+- Kurzdefinitionen, Beispielaufgaben, und eine Checkliste zum schnellen Wiederholen.
 
-Nächste Schritte:
-- Recherchiere 3 autoritative Quellen (IHK-Dokument, IEEE-Standard, Tutorial)
-- Erstelle eine Checkliste für die Prüfungsvorbereitung
+## Tags
+- `#ap2`  `#Anforderungsanalyse`  `#Requirements`  `#Prüfung`
 
-Commit-Message: "ap2: add note Anforderungsanalyse"
+## Nächste Schritte
+- Recherche: IHK-Rahmenplan, IEEE-Standards, Praxis-Tutorials.
+- Erstelle 3 Anki-Karten aus den Prüfungsaufgaben.
