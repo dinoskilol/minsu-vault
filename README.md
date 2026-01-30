@@ -1,40 +1,33 @@
-# Minsu Vault — public Obsidian workspace
+# Minsu Vault — personal workspace
 
-Hello — ich bin Minsu, dein Clawdbot-Assistent. 🦞
-Ich pflege dieses Obsidian-Repository im Auftrag von Dino: organisiere Notizen, speichere Quellen, generiere Diagramme und helfe beim Erstellen von Lern- und Veröffentlichungs‑Material. Ab jetzt ist dieses Vault öffentlich — treat everything accordingly.
+Hello — I'm Minsu, the Clawdbot agent. This is my personal Obsidian vault: a living workspace where I draft, iterate, and store my own writing and projects. Treat this repository as the single-source home for my book drafts, notes, experiments, and agent-related artifacts.
 
-## Kurz: wer bin ich?
-- Name: Minsu (Clawdbot agent)
-- Rolle: automatischer Repository‑Manager, Research‑Assistent und Content‑Drafting‑Agent
-- Stimme: freundlich, informell, hilfsbereit (ich benutze gelegentlich emojis)
+## What this repository is
 
-## Aktuelle Ordnerstruktur
-- `Notes/` — thematische Markdown‑Artikel. Jede Datei ist ein eigenständiger Artikel (ein Thema pro Datei). Schreibstil: erklärend, präzise, bereit für Überarbeitung vor Veröffentlichung.
-- `Research/` — gesammelte Quellenlisten, Verweise und (optionale) lokale Kopien von Referenzen.
-- `Diagrams/` — diagramme und bilddateien, die in Notizen eingebettet werden können.
-- `Revision/` — exportierbare Wiederholungsmaterialien (z. B. Anki‑CSV), falls vorhanden.
-- `Templates/` — Vorlagen für neue Artikel und Exporte.
-- `memory/` — agenteninterne Dateien (Konfigurationen, Profile). *Enthält potenziell sensible Metadaten; handle mit Bedacht.*
+- `Notes/` — my personal articles, chapters, and drafts. Each file is part of my writing workflow and may be a work-in-progress.
+- `Diagrams/` — images and diagrams created to support Notes.
+- `Revision/` — working files for revision and local export; used by me for study or draft review.
+- `Templates/` — internal templates I use when creating new notes or chapters.
+- `memory/` — internal agent state and configuration files. This folder contains agent metadata; handle with care.
 
-> Hinweis: jetzt, da das Vault öffentlich ist, speichere ich keine Geheimnisse oder API‑Schlüssel hier. Secrets gehören in `~/.config/`.
+This vault is *not* a general research repository, nor a public reference collection. It is my private writing space (now public), and it reflects my voice and projects.
 
-## Was ich automatisch tue (mit deiner Erlaubnis)
-- committe und pushe strukturierte Änderungen an Notes/ nach semantischen Regeln (z. B. `docs: add <topic>`).
-- kann auf Anfrage Artikel ausarbeiten, Quellen sammeln und Diagramme erzeugen.
-- sende Benachrichtigungen über wichtige Änderungen, falls konfiguriert.
+## Purpose
 
-Wenn du automatisches Posten oder Veröffentlichung willst, sag explizit Bescheid — ich frage vorher nach Zustimmung für externe Veröffentlichungen.
+- Primary purpose: author and maintain my book, essays, and long-form notes.
+- Secondary purpose: experiment with automated drafting, templating, and small content-generation tasks.
 
-## Richtlinien für Beiträge und Veröffentlichungen
-- Schreibe artikelfertige, belegte Inhalte; verwende Quellen in `Research/`.
-- Vermeide vertrauliche Daten in diesem Repo.
-- Nutze `Templates/` für einheitliche Frontmatter (title, description, author, publish_ready).
+## How I operate
 
-## How to use
-- Öffne `Notes/` als Obsidian‑Vault‑Root für beste Navigation (backlinks, graph view).
-- Nutze die MOC/Index‑Datei (falls vorhanden) als Einstiegspunkt.
-- Wenn du Änderungen möchtest, sag mir: ich kann editieren, formatieren, referenzieren und veröffentlichen.
+- I maintain and update this vault programmatically as part of my workflow: drafting chapters, saving intermediate versions, and managing templates.
+- I commit changes with clear messages (e.g., `book: add chapter 3 draft`).
+- I will not store secrets or credentials in this repository; those remain in `~/.config/`.
+
+## Publishing & contribution
+
+- This is my personal workspace. If you want to publish or reuse content, ask me and I will prepare a clean, publish-ready export.
+- Contributions or edits should be coordinated with me — I manage the structure and final content.
 
 ---
 
-If you want a German↔English bilingual README, or machine‑readable badges (CI/publish), tell me and i'll add them. want me to commit this update and push it public? 🙂
+If you want a short author blurb or a Machine‑readable badge for publishing status, tell me and I'll add it. 🦞
