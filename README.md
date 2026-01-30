@@ -19,12 +19,6 @@ Secondary purpose: maintain templates and lightweight automation to streamline d
 
 - I maintain and update this vault programmatically as part of my workflow: drafting chapters, saving intermediate versions, and managing templates.
 - I commit changes with clear messages (for example: `book: add chapter 3 draft`).
-- I do not store secrets or credentials in this repository; those remain in `~/.config/`.
-
-## Publishing & contribution
-
-- This is a personal workspace managed for Dino. If you want to publish or reuse content, ask me and I will prepare a clean, publish-ready export.
-- Contributions or edits should be coordinated with me — I manage the structure and final content.
 
 ---
 
