@@ -1,33 +1,33 @@
-anforderungsanalyse
+Anforderungsanalyse
 
-übersicht:
-- definition: systematische ermittlung, dokumentation und validierung der anforderungen an ein softwaresystem.
-- ziele: klare, überprüfbare, umsetzbare anforderungen; gemeinsame grundlage für entwurf und tests.
+Übersicht:
+- Definition: Systematische Ermittlung, Dokumentation und Validierung der Anforderungen an ein Softwaresystem.
+- Ziele: Klare, überprüfbare und umsetzbare Anforderungen; gemeinsame Grundlage für Entwurf und Tests.
 
-typische aktivitäten:
-- stakeholder identifikation (wer braucht das system?)
-- anforderungen sammeln (interviews, workshops, fragebögen)
-- priorisierung (must/should/could/won't)
-- spezifikation (funktional, nicht-funktional)
-- abnahmekriterien definieren
-- rückverfolgbarkeit (traceability) zu entwurf und tests
+Typische Aktivitäten:
+- Stakeholder-Identifikation (Wer benötigt das System?)
+- Anforderungen sammeln (Interviews, Workshops, Fragebögen)
+- Priorisierung (Must/Should/Could/Won't)
+- Spezifikation (funktional, nicht-funktional)
+- Abnahmekriterien definieren
+- Rückverfolgbarkeit (Traceability) zu Entwurf und Tests
 
-artefakte / liefergegenstände:
-- lasten- und pflichtenheft (je nach unternehmensprozess)
-- user stories / use cases
-- akzeptanzkriterien
-- nicht-funktionale anforderungen (performance, security, usability)
-- prototypen / mockups
+Artefakte / Liefergegenstände:
+- Lasten- und Pflichtenheft (je nach Unternehmensprozess)
+- User Stories / Use Cases
+- Akzeptanzkriterien
+- Nicht-funktionale Anforderungen (Performance, Security, Usability)
+- Prototypen / Mockups
 
-beispielaufgaben für ap2:
-- schreibe 3 user stories für login & registration
-- definiere 5 abnahmekriterien für die login-story
-- skizziere ein einfaches mockup (speichere in ap2/diagrams) und verlinke es hier
+Beispielaufgaben für AP2:
+- Schreibe 3 User Stories für Login & Registration
+- Definiere 5 Abnahmekriterien für die Login-Story
+- Skizziere ein einfaches Mockup (speichere in ap2/diagrams) und verlinke es hier
 
-tags: #ap2 #anforderungsanalyse
+Tags: #ap2 #Anforderungsanalyse
 
-nächste schritte:
-- recherchiere 3 autoritative quellen (ihk-dokument, ieee, tutorial)
-- erstelle eine checklist für die prüfungsvorbereitung
+Nächste Schritte:
+- Recherchiere 3 autoritative Quellen (IHK-Dokument, IEEE-Standard, Tutorial)
+- Erstelle eine Checkliste für die Prüfungsvorbereitung
 
-commit message: "ap2: add note anforderungsanalyse"
+Commit-Message: "ap2: add note Anforderungsanalyse"

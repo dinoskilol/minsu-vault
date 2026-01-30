@@ -1,12 +1,12 @@
-softwareentwicklung lebenszyklus
+Softwareentwicklungslebenszyklus
 
-zusammenfassung:
-- phasen: anforderungsanalyse, entwurf, implementierung, test, deployment, wartung
-- fokus für ap2: jede phase verstehen, beispielaufgaben, typische liefergegenstände (spezifikationen, uml-diagramme, testprotokolle)
+Zusammenfassung:
+- Phasen: Anforderungsanalyse, Entwurf, Implementierung, Test, Deployment, Wartung
+- Fokus für AP2: Jede Phase verstehen, Beispielaufgaben und typische Liefergegenstände (Spezifikationen, UML-Diagramme, Testprotokolle)
 
-beispiele zum hinzufügen:
-- erstelle eine kurze spezifikation für eine login-funktion
-- erstelle ein uml-sequenzdiagramm für den login-prozess
-- liste testfälle und abnahmekriterien auf
+Beispiele zum Hinzufügen:
+- Erstelle eine kurze Spezifikation für eine Login-Funktion
+- Erstelle ein UML-Sequenzdiagramm für den Login-Prozess
+- Liste Testfälle und Abnahmekriterien auf
 
-tags: #ap2 #softwareentwicklung #uml
+Tags: #ap2 #Softwareentwicklung #UML

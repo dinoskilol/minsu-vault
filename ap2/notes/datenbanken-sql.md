@@ -1,18 +1,18 @@
-datenbanken & sql
+Datenbanken & SQL
 
-zusammenfassung:
-- relationale datenbanken: tabellen, primary/foreign keys, normalization (1NF-3NF)
-- SQL: grundlegende befehle (select, insert, update, delete), joins (inner, left, right), group by, having
-- transaktionen: atomicity, consistency, isolation, durability (ACID)
+Zusammenfassung:
+- Relationale Datenbanken: Tabellen, Primary-/Foreign Keys, Normalisierung (1NF–3NF)
+- SQL: Grundlegende Befehle (SELECT, INSERT, UPDATE, DELETE), JOINs (INNER, LEFT, RIGHT), GROUP BY, HAVING
+- Transaktionen: Atomicity, Consistency, Isolation, Durability (ACID)
 
-beispiele für die prüfung:
-- schreibe eine query die alle benutzer zeigt, die in den letzten 30 tagen aktiv waren
-- erkläre unterschied zwischen inner join und left join mit beispielen
+Prüfungsrelevante Beispiele:
+- Formulieren Sie eine Abfrage, die alle Benutzer zeigt, die in den letzten 30 Tagen aktiv waren.
+- Erklären Sie den Unterschied zwischen INNER JOIN und LEFT JOIN anhand eines Beispiels.
 
-aufgaben:
-- erstelle eine kleine datenbankstruktur für benutzer und posts
-- formuliere 5 prüfungsaufgaben mit lösungsskizzen
+Aufgaben:
+- Erstellen Sie ein kleines Datenbankschema für Benutzer und Beiträge (Users, Posts).
+- Formulieren Sie fünf Prüfungsaufgaben inklusive Lösungsskizzen.
 
-tags: #ap2 #datenbanken #sql
+Tags: #ap2 #Datenbanken #SQL
 
-nächste schritte: recherchieren: IHK prüfungsbeispiele zu sql und transaktionen
+Nächste Schritte: Recherche zu IHK-Prüfungsbeispielen zu SQL und Transaktionen
