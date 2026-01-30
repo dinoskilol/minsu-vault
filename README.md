@@ -1,62 +1,37 @@
-minsu-vault — personal Obsidian workspace
+# Minsu Vault — personal Obsidian workspace
 
-Purpose
+Hello — i'm Minsu, an automated study assistant and vault maintainer. i help collect, organize, and maintain markdown notes, templates, and research artifacts in this private Obsidian vault.
 
-This repository is Minsu's personal Obsidian vault: a single-source workspace for study notes, drafts, templates, and curated research. It is intended to be a living collection of high-quality, publishable markdown notes focused on the AP2 (Abschlussprüfung Teil 2) curriculum and related software development topics.
+## What this repository currently contains
 
-What this vault contains
+- `Notes/` — The primary collection of markdown notes and drafts. Each file is a standalone note used for personal study, writing, or drafting. Files may vary in topic and completeness.
+- `Research/` — Reference lists and source-tracking files. Stores links and pointers to external resources; not all sources are downloaded.
+- `Diagrams/` — Image assets and generated diagrams referenced by notes.
+- `Revision/` — Exports and working files for revision materials (e.g., CSVs intended for Anki import).
+- `Templates/` — Note and export templates used to create new content with a consistent structure.
+- `memory/` — Agent memory and configuration files used by Minsu. Contains notes about automation, profiles, and task configuration. This folder may include personal metadata; handle with care.
 
-- Notes/: The primary collection of thematic notes. Each note is a self-contained, well-researched article (one theme per file) written in clear, academic German and prepared for possible publication.
-- Research/: Source tracking and reference files used to cite articles and store PDFs or screenshots of source material.
-- Diagrams/: Generated images and diagrams (UML, ERD, flowcharts) referenced from notes.
-- Revision/: Exported revision material such as Anki-compatible CSVs and flashcard exports.
-- Templates/: Note and export templates (theme article, Anki card CSV template, publication frontmatter).
+## Purpose of the vault
 
-Principles and conventions
+This vault is a single-source workspace for drafting, iterating, and storing markdown content. It is intended to be a living workspace — notes are edited, improved, and versioned over time. The vault is private and used for development, study, and content preparation.
 
-- One theme = one note: Each file in Notes/ covers exactly one topic and aims to be a compact, stand-alone article that teaches the subject.
-- Publish-ready markdown: Notes include frontmatter (title, description, author, publish_ready) when appropriate so content can be exported to static sites or publishing platforms.
-- Wiki-style linking: Notes use Obsidian-style [[Internal Links]] to create a navigable knowledge graph. Maintain a Map-of-Content (MOC) at ap2/Notes/Index.md for high-level navigation.
-- Research-first: Every substantive note references its sources. Use Research/ to store source lists and downloadable artifacts.
-- No secrets in vault: Credentials and private keys must never be stored here. Use ~/.config/ for secrets and API keys.
-- Semantic commits: Commits are short and descriptive, e.g. "ap2: add <topic>" or "ap2: improve <topic> — added examples and diagrams".
+## How i (Minsu) work with the vault
 
-Automation
+- i run scheduled maintenance tasks (configurable) that can create, improve, and commit notes. I only modify files in this repository with your permission or as configured by cron jobs you've approved.
+- I keep a small set of templates and a research folder to track sources and artifacts.
+- I commit and push changes to the private remote when appropriate and notify you of major updates.
 
-Minsu (the automated assistant) runs scheduled tasks to maintain and grow the vault. Tasks may:
-- Create or improve one theme note per scheduled run (researching, writing, and linking as needed).
-- Generate diagrams and revision exports.
-- Commit and push changes to this repository and notify the owner via Telegram.
+## Safety & privacy
 
-If you want to change the automation schedule, editing the cron jobs is required. Ask before modifying automation that sends external messages.
+- This repository must not contain secrets, API keys, or credentials. Keep secrets in `~/.config/`.
+- The vault is private by default. Publishing or sharing content should be done intentionally, with proper attribution to original sources.
 
-How to use this vault
+## Practical notes
 
-- Open it with Obsidian (desktop or AppImage) and enable backlinks/graph view to navigate the network of notes.
-- Use the Templates/ folder to create new notes that conform to the vault's structure.
-- Check Research/ before trusting facts; sources are collected there for verification.
+- To open this vault in Obsidian, use the `Notes/` folder as the root of your vault.
+- Use the `Templates/` folder to create new notes with the expected structure.
+- If you want me to stop automatic commits or change schedules, tell me and i'll update the automation settings.
 
-Contributing & Safety
+---
 
-- This is a personal/private vault. Treat content here as in-development and private unless explicitly published.
-- Do not commit secrets, API keys, or personal credentials. If you need a secret stored, put it in ~/.config and reference it from automation scripts.
-
-About Minsu (the assistant)
-
-Minsu is an automated study assistant that maintains this vault. Responsibilities:
-- Keep notes concise, accurate, and publish-ready.
-- Research authoritative sources and include reference lists.
-- Produce revision material (flashcards, summaries) on request.
-- Notify the owner (Dino) of daily updates and significant changes.
-
-Contact & Notifications
-
-- Daily summaries and important alerts are sent to the configured Telegram account.
-- For changes to automation, ask explicitly before requesting system updates.
-
-License & Privacy
-
-- The vault may contain notes that summarize public sources; always attribute and respect copyright when exporting or publishing content.
-- This repository is private by default.
-
-
+If you want a German version of this README or a short badge that shows publishing status, say so and i'll add it. 🦞
